@@ -103,11 +103,11 @@
     }
 
     25% {
-        transform: translateY(-0.25rem);
+        transform: translateY(-0.15rem);
     }
 
     75% {
-        transform: translateY(0.25rem);
+        transform: translateY(0.15rem);
     }
 
     100% {
