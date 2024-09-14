@@ -266,6 +266,12 @@ body {
                         color: white;
                     }
                 }
+
+                a.bottom {
+                    p {
+                        clip-path: polygon(0 0, 100% 0, 100% 0rem, 100% 100%, 1rem 100%, 0 calc(100% - 1rem));
+                    }
+                }
             }
         }
     }
