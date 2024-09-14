@@ -1,0 +1,64 @@
+#start {
+    #news {
+        position: relative;
+        padding: 2rem 1rem 1rem 1rem;
+        width: calc(100% - 2rem);
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            width: 100%;
+            max-width: 68rem;
+
+            h1 {
+                clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 1rem, 100% 100%, 1rem 100%, 0 calc(100% - 1rem));
+                padding: 1rem 3rem;
+                background: var(--background2);
+                margin-bottom: 1rem;
+                width: fit-content;
+            }
+        }
+
+        .news-card {
+            clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 1rem, 100% 100%, 1rem 100%, 0 calc(100% - 1rem));
+            padding: 1rem;
+            width: calc(100% - 2rem);
+            max-width: 66rem;
+            background: var(--background2);
+            margin-bottom: 1rem;
+
+            h1, h2, h3, h4, h5, h6 {
+                color: var(--foreground2);
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                position: relative;
+                z-index: unset;
+                clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 1rem, 100% 100%, 1rem 100%, 0 calc(100% - 1rem));
+                font-size: 1.25rem;
+                background: var(--background);
+                width: fit-content;
+                padding: 0.5rem 1rem;
+                margin-bottom: 0.5rem;
+                font-weight: 750;
+            }
+
+            p {
+                padding: 0 1rem 1rem 1rem;
+            }
+
+            .buttons {
+                user-select: none;
+                padding: 0.25rem 0.75rem 0.75rem 0.75rem;
+                width: fit-content;
+                height: fit-content;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .buttons.active {
+                flex-direction: column;
+            }
+        }
+    }
+}
