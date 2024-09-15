@@ -1,0 +1,3 @@
+function addImageToSlider(sliderId, imageUrl) {
+
+}
