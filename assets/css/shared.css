@@ -117,7 +117,6 @@ body {
 
             h1:hover {
                 transition: all 1s ease;
-                color: var(--accent3);
                 text-shadow: 0 0 1rem var(--accent);
                 filter: hue-rotate(360deg);
             }
@@ -213,6 +212,7 @@ body {
         justify-content: center;
         align-items: center;
         user-select: none;
+        padding-top: 1rem;
 
         p {
             opacity: 0.3;
@@ -356,14 +356,14 @@ body {
     }
 
     .blue {
-        background: #5896f2 !important;
+        background: #438df8 !important;
         color: white !important;
-        border-color: #457abf !important;
+        border-color: #2e72dc !important;
     }
 
     .blue:hover {
-        background: #457abf !important;
-        border-color: #3469a5 !important;
+        background: #2e72dc !important;
+        border-color: #1e57ba !important;
     }
 
     .blurple {
