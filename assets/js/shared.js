@@ -1,7 +1,7 @@
 addEventListener("DOMContentLoaded", () => {
     initDisplay();
-    document.body.innerHTML += "<div id='socials'><a href='https://www.zyneonstudios.com'><i class='bx bxs-exit'></i></div>";
-    if(location.href.startsWith("https://projects.zyneonstudios.com/")&&location.href.endsWith(".html")) {
+    document.body.innerHTML += "<div id='socials'><a href='https://www.zyneonstudios.de'><i class='bx bxs-exit'></i></div>";
+    if(location.href.startsWith("https://projects.zyneonstudios.de/")&&location.href.endsWith(".html")) {
         location.href = location.href.replaceAll(".html","");
     }
 });
